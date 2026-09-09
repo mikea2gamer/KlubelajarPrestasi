@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg_screen">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="18dp">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <ImageView android:layout_width="165dp" android:layout_height="65dp"
+                android:src="@drawable/klubelajar_logo" android:scaleType="fitCenter"
+                android:contentDescription="Klubelajar Prestasi"/>
+            <Space android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+            <TextView android:text="ADMIN" android:textStyle="bold" android:textColor="@color/white"
+                android:background="@drawable/pill_blue" android:textSize="11sp"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <ImageView android:layout_width="215dp" android:layout_height="55dp"
+            android:layout_gravity="center_horizontal" android:src="@drawable/supported_by"
+            android:scaleType="fitCenter" android:contentDescription="Supported by"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Dashboard Admin" android:textSize="27sp" android:textStyle="bold"
+            android:textColor="@color/text_dark" android:layout_marginTop="10dp"/>
+        <TextView android:id="@+id/adminStatus" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textColor="@color/gray"
+            android:textSize="13sp" android:layout_marginTop="3dp"/>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:background="@drawable/card_blue"
+            android:padding="18dp" android:layout_marginTop="18dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Kelola pembelajaran" android:textSize="20sp"
+                android:textStyle="bold" android:textColor="@color/white"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Atur siswa, nilai, kursus, jadwal, pesan, dan Zoom dari satu tempat."
+                android:textColor="#DDE8FF" android:textSize="13sp" android:layout_marginTop="5dp"/>
+        </LinearLayout>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Manajemen" android:textStyle="bold" android:textSize="18sp"
+            android:textColor="@color/text_dark" android:layout_marginTop="22dp"
+            android:layout_marginBottom="8dp"/>
+
+        <Button android:id="@+id/studentsBtn" android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="👥   Data Siswa / Murid" android:gravity="center_vertical"
+            android:textColor="@color/white" android:backgroundTint="@color/primary"/>
+        <Button android:id="@+id/coursesBtn" android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="   Edit Kursus / Pelajaran" android:gravity="center_vertical"
+            android:layout_marginTop="8dp" android:background="@drawable/button_outline"/>
+        <Button android:id="@+id/gradesBtn" android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="   Kelola Nilai" android:gravity="center_vertical"
+            android:layout_marginTop="8dp" android:background="@drawable/button_outline"/>
+        <Button android:id="@+id/messagesBtn" android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="   Kirim Pesan" android:gravity="center_vertical"
+            android:layout_marginTop="8dp" android:background="@drawable/button_outline"/>
+        <Button android:id="@+id/zoomAdminBtn" android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="   Kirim Link Zoom" android:gravity="center_vertical"
+            android:layout_marginTop="8dp" android:background="@drawable/button_outline"/>
+        <Button android:id="@+id/scheduleAdminBtn" android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="   Kelola Jadwal" android:gravity="center_vertical"
+            android:layout_marginTop="8dp" android:background="@drawable/button_outline"/>
+
+        <Button android:id="@+id/logoutAdminBtn" android:layout_width="match_parent" android:layout_height="50dp"
+            android:text="Keluar dari Admin" android:textColor="@color/danger"
+            android:background="@drawable/button_outline" android:layout_marginTop="18dp"/>
+    </LinearLayout>
+</ScrollView>

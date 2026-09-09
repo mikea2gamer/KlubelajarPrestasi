@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg_screen">
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="18dp">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical">
+            <ImageView android:layout_width="150dp" android:layout_height="62dp"
+                android:src="@drawable/klubelajar_logo" android:scaleType="fitCenter"
+                android:contentDescription="Klubelajar Prestasi"/>
+            <Space android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+            <TextView android:text="2026" android:textStyle="bold" android:textColor="@color/primary"
+                android:background="@drawable/pill_blue" android:textSize="12sp"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <ImageView android:layout_width="220dp" android:layout_height="58dp"
+            android:layout_gravity="center_horizontal" android:src="@drawable/supported_by"
+            android:scaleType="fitCenter" android:contentDescription="Supported by"/>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:background="@drawable/card_blue"
+            android:padding="20dp" android:layout_marginTop="8dp">
+            <TextView android:id="@+id/welcome" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:text="Halo, Siswa!"
+                android:textSize="25sp" android:textStyle="bold" android:textColor="@color/white"/>
+            <TextView android:id="@+id/content" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:text="Siap untuk belajar hari ini?"
+                android:textSize="14sp" android:textColor="#DDE8FF" android:layout_marginTop="5dp"/>
+        </LinearLayout>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Menu belajar" android:textStyle="bold" android:textSize="18sp"
+            android:textColor="@color/text_dark" android:layout_marginTop="22dp"
+            android:layout_marginBottom="8dp"/>
+
+        <Button android:id="@+id/scheduleBtn" android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="   Jadwal Bimbingan" android:gravity="center_vertical"
+            android:textStyle="bold" android:textColor="@color/white" android:backgroundTint="@color/primary"/>
+        <Button android:id="@+id/courseBtn" android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="   Pelajaran / Kursus" android:gravity="center_vertical"
+            android:layout_marginTop="8dp" android:background="@drawable/button_outline"/>
+        <Button android:id="@+id/gradeBtn" android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="   Nilai Saya" android:gravity="center_vertical"
+            android:layout_marginTop="8dp" android:background="@drawable/button_outline"/>
+        <Button android:id="@+id/messageBtn" android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="   Pesan dari Admin" android:gravity="center_vertical"
+            android:layout_marginTop="8dp" android:background="@drawable/button_outline"/>
+        <Button android:id="@+id/zoomBtn" android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="   Zoom Meeting" android:gravity="center_vertical"
+            android:layout_marginTop="8dp" android:background="@drawable/button_outline"/>
+        <Button android:id="@+id/profileBtn" android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="   Profil Saya" android:gravity="center_vertical"
+            android:layout_marginTop="8dp" android:background="@drawable/button_outline"/>
+
+        <Button android:id="@+id/logoutBtn" android:layout_width="match_parent" android:layout_height="50dp"
+            android:text="Keluar dari akun" android:textColor="@color/danger"
+            android:background="@drawable/button_outline" android:layout_marginTop="18dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Klubelajar Prestasi • Bimbingan online"
+            android:gravity="center" android:textColor="@color/gray" android:textSize="12sp"
+            android:layout_marginTop="18dp"/>
+    </LinearLayout>
+</ScrollView>
