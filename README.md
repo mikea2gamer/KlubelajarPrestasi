@@ -15,6 +15,6 @@ Aplikasi Android sederhana untuk bimbingan online Klubelajar Prestasi.
 this is the third revision i js wanna go to sleep man
 
     // IMPORTANT //
-this app is still in testing. 
-we have not made an external server YET (heavy emphasis on the word yet), 
-but we are planning on adding it very very soon.
+      this app is still in testing. 
+      we have not made an external server YET (heavy emphasis on the word yet), 
+      but we are planning on adding it very very soon.
